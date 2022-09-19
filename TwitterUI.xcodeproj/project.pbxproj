@@ -51,9 +51,8 @@
 		6697F25628D74C78004D111E /* TwitterUI */ = {
 			isa = PBXGroup;
 			children = (
-				6697F25728D74C78004D111E /* TwitterUIApp.swift */,
-				6697F25928D74C78004D111E /* ContentView.swift */,
-				6697F25B28D74C7A004D111E /* Assets.xcassets */,
+				669F350828D8F60500FACB6C /* sources */,
+				669F350728D8F5F800FACB6C /* resources */,
 				6697F25D28D74C7A004D111E /* Preview Content */,
 			);
 			path = TwitterUI;
@@ -65,6 +64,23 @@
 				6697F25E28D74C7A004D111E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		669F350728D8F5F800FACB6C /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				6697F25B28D74C7A004D111E /* Assets.xcassets */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		669F350828D8F60500FACB6C /* sources */ = {
+			isa = PBXGroup;
+			children = (
+				6697F25728D74C78004D111E /* TwitterUIApp.swift */,
+				6697F25928D74C78004D111E /* ContentView.swift */,
+			);
+			path = sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
