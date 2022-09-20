@@ -12,7 +12,7 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             TabView {
-                Text("Feed View")
+                FeedView()
                     .tabItem {
                         Image(systemName: "house")
                         Text("Home")
